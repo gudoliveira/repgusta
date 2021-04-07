@@ -1,0 +1,10 @@
+create database gusta;
+create table users;
+select db gusta;
+select *from usuario;
+use aula08;
+
+insert into usuario values(null, "1234567", "teste@exemplo.com", "Carlos Almeida", "1234" );
+insert into usuario values(null, "7654321", "julia@exemplo.com", "Julia Almeida", "4321" );
+
+
