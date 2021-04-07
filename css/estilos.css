@@ -1,0 +1,122 @@
+
+       
+    /* Criando estilos padrões nativos dos comandos em HTML5*/
+
+    h1{
+        font-size:25px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-weight:bolder;
+        color:rgb(255, 255, 255)
+    }
+    p{
+        font-size: 18px;
+        font-weight: bolder;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(211, 211, 211)
+    }
+
+    td{
+        font-size: 15px;
+        font-weight: bolder;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(230, 230, 230)
+
+    }
+
+    .mainmenu{
+        background-color:rgb(29, 29, 29)
+    }
+
+    body{
+       background-color:rgb(51, 51, 50)
+       
+    } 
+    head{
+        background-color:rgb(0, 0, 0)
+        
+     } 
+
+     table{
+        background-color:rgb(0, 0, 0)
+        
+     } 
+
+    /* Criando estilos de classe para serem aplicados em uma página em HTML5*/
+    .menu{
+        font-size:14px;
+        font-weight: bolder;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(17, 17, 65);
+        
+    }
+
+    .formatar_texto{
+        font-size:10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:gray;
+
+  }
+
+  /* Criando estilos para fomatar o nosso formulário*/
+
+  .campo_nome{
+      position: relative;
+      left:19px;
+      width: 155px;
+      background-color:rgb(255, 255, 255);
+      color:rgb(0, 0, 0);
+
+  }
+
+  .campo_email{
+    position: relative;
+      left:19px;
+      width: 155px;
+      background-color:rgb(255, 255, 255);
+      color:rgb(0, 0, 0);
+  }
+
+  .campo_senha{
+    position: relative;
+      left:19px;
+      width: 155px;
+      background-color:rgb(255, 255, 255);
+      color:rgb(0, 0, 0);
+  }
+    
+    .botao{
+        font-size: 15px;
+        color:rgb(0, 0, 0);
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  /*Criando uma formatação para nome de componentes*/
+  #formulario_contato{
+      background-color: lightskyblue;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 12px;
+      font-weight: bold;
+      color:black
+
+  }
+
+  /* Criando estilos que serão utilizados na nossa página em Bootstrap*/
+  .container{
+      
+      border: 3px solid red;
+
+
+  }
+
+  .div1{
+      background-color: yellow;
+  }
+  .div2{
+      background-color: yellowgreen;
+  }
+  .div3{
+      background-color: rgb(194, 47, 47);
+  }
+  .div4{
+      background-color: rgb(106, 106, 231);
+  }
