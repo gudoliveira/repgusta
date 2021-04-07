@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato Gama Academy</title>
+    <!--Fazendo uma chamada de biblioteca em CSS-->
+<link rel="stylesheet" href="../css/estilos.css">
+</head>
+
+<body>
+    <table border="0" width="100%" class="menu"</table>
+        <tr>
+            <td align="center"><a href="../html/index.html"></a>
+                <img src="../imagens/logo.png" widgth="160" height="40">
+            </td>
+            <td align="right"><a href="../html/index.html">QUEM SOMOS</a></td>
+            <td align="right">PARA PESSOAS</td>
+            <td align="right">PARA EMPRESAS</td>
+            <td align="right">CONTATO</td>
+            <td align="right">CONTEÚDOS</td>
+        </tr>
+    </table>
+    <br>
+
+    <!--Criando um formulario de consulta-->
+    <!-- Tag de criação de formulário <form>-->
+    <form id="formulario_contato" method="POST">
+        <!-- Criando uma área de desenvovimento para os campos do formulário-->
+        <fieldset>
+            <!-- Criando uma legenda no nosso formulário-->
+            <legend> Formulario de Cursos da Gama Academy </legend>
+
+            <!--Inserindo um titulopara o campo com a tag <label>-->
+            <label>Nome:<br></label><input type="text" name="nome_cliente" class="campo_nome" required>
+            <br>
+            <br>
+            <label>Email:<br></label><input type="email" name="email_cliente" class="campo_email" required>
+            <br>
+            <br>
+            <label>Senha:<br></label><input type="password" name="senha_cliente" required>
+            <br>
+            <br>
+
+            <!-- Criando campos utilizando a tag <radio>-->
+            <label>Genero: </label> <br>
+            <input type="radio" name="generico_cliente" value="Feminino">Feminino <br>
+            <input type="radio" name="generico_cliente" value="Feminino">Masculino <br>
+            <input type="radio" name="generico_cliente" value="Feminino">Outros <br><br>
+
+            <!--Criando uma caixa de listagem de cursos como dropdown-->
+            <!--Para criar o dropdown utilizaremos duas tags <select> <option>-->
+            <label>Escolha qual curso deseja cursar: </label><br>
+            <select required>
+                <option value="BRANCO" name="cursos_cliente"></option>
+                <option value="HTML" name="cursos_cliente">HTML</option>
+                <option value="CSS" name="cursos_cliente">CSS</option>
+                <option value="JS" name="cursos_cliente">JS</option>
+                <option value="XML" name="cursos_cliente">XML</option>
+            </select>
+            <br>
+            <br>
+
+            <!-- Criando um campo para a escolha do período-->
+            <!-- Utilizar a tag <checkbox>-->
+            <label>Escolha o período: </label><br>
+
+            <input type="checkbox" name="periodo_cliente" value="manhã">Manhã
+            <input type="checkbox" name="periodo_cliente" value="tarde">Tarde
+            <input type="checkbox" name="periodo_cliente" value="noite">Noite
+            </select>
+            <br>
+            <br>
+
+            <!--Criando um campo para escolha da data-- <input="date">-->
+            <label>Informe a data que deseja cursar: </label><br>
+            <input type="date" name="data_curso_cliente" required><br><br>
+
+            <!--Criando um campo de observação no formulario-->
+            <label>Mensagem: </label><br>
+            <textarea name="mensagem_cliente" cols="35" rows="3"></textarea><br><br>
+
+            <!--Criando um campo para anexar comprovante <input="file">-->
+            <label>Insira um comprovante de residência: </label><br>
+            <input type="file" name="comprovante_cliente" required><br><br>
+
+
+            <!-- Criando um botão de envio de dados-->
+            <input type="submit" value="Enviar" class="botao">
+        </fieldset>
+
+
+
+    </form>
+</body>
